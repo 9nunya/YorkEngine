@@ -1,0 +1,205 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "YorkEngine textured import fixture"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Textured import test",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Textured mesh instance",
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.0,
+        -2.0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "Child camera node",
+      "camera": 0,
+      "translation": [
+        0.0,
+        0.0,
+        5.0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Textured quad",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "indices": 2,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "name": "Quad positions",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "name": "Quad texture coordinates",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2",
+      "min": [
+        0.0,
+        0.0
+      ],
+      "max": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Textured triangle indices",
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "name": "Untextured triangle indices",
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "positions",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 48,
+      "target": 34962
+    },
+    {
+      "name": "uvs",
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 32,
+      "target": 34962
+    },
+    {
+      "name": "indices0",
+      "buffer": 0,
+      "byteOffset": 80,
+      "byteLength": 24,
+      "target": 34963
+    },
+    {
+      "name": "indices1",
+      "buffer": 0,
+      "byteOffset": 104,
+      "byteLength": 24,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "name": "Chunk",
+      "byteLength": 128,
+      "uri": "textured.bin"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Child camera",
+      "type": "perspective",
+      "perspective": {
+        "yfov": 0.78539816339,
+        "znear": 0.1,
+        "zfar": 100.0
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Checker",
+      "mimeType": "image/png",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAEklEQVR42mP4z8DwHwyBNBgAAEnICfcD2WTxAAAAAElFTkSuQmCC"
+    }
+  ],
+  "samplers": [
+    {
+      "name": "Quad sampler",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 33648
+    }
+  ],
+  "textures": [
+    {
+      "name": "Checker texture",
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "Checker material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.75,
+          1.0,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "name": "Plain material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ]
+}

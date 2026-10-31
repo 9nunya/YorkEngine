@@ -1,0 +1,47 @@
+.bdep/
+
+# Local default options files.
+#
+.build2/local/
+build/
+
+.clangd/
+
+# Compiler/linker output.
+#
+# Note that *.exe.dlls directories can be symlinks thus
+# no trailing /.
+#
+*.d
+*.t
+*.i
+*.i.*
+*.ii
+*.ii.*
+*.o
+*.obj
+*.gcm
+*.pcm
+*.ifc
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.exe
+*.exe.dlls
+*.exe.manifest
+*.pc
+
+.cache/
+
+# Wavefront fixtures are source assets, not compiler object files.
+!assets/obj_importer_test.obj
+!assets/obj_missing_attributes_test.obj
+
+# Compilation database.
+#
+compile_commands.json

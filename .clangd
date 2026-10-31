@@ -1,0 +1,4 @@
+Diagnostics:
+  Suppress: ["c++20-designator", "designated-initializer-missing-field"]
+CompileFlags:
+  Add: [-std=c++20]
