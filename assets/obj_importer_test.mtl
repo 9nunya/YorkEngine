@@ -1,0 +1,6 @@
+newmtl Checker
+Kd 0.5 0.75 1.0
+map_Kd -clamp on checker.png
+
+newmtl Plain
+Kd 0.2 0.3 0.4

@@ -1,0 +1,74 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "YorkEngine glTF import smoke asset"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Primitive and instance import test",
+      "nodes": [0, 1]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "First instance",
+      "mesh": 0
+    },
+    {
+      "name": "Translated instance",
+      "mesh": 0,
+      "translation": [3.0, 0.0, 0.0]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Four triangles",
+      "primitives": [
+        {
+          "attributes": {"POSITION": 0},
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        },
+        {
+          "attributes": {"POSITION": 1},
+          "indices": 5,
+          "mode": 4
+        },
+        {
+          "attributes": {"POSITION": 2},
+          "indices": 6,
+          "mode": 4
+        },
+        {
+          "attributes": {"POSITION": 3}
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {"name": "Primitive material association"}
+  ],
+  "accessors": [
+    {"bufferView": 0, "byteOffset": 0, "componentType": 5126, "count": 3, "type": "VEC3"},
+    {"bufferView": 0, "byteOffset": 36, "componentType": 5126, "count": 3, "type": "VEC3"},
+    {"bufferView": 0, "byteOffset": 72, "componentType": 5126, "count": 3, "type": "VEC3"},
+    {"bufferView": 0, "byteOffset": 108, "componentType": 5126, "count": 3, "type": "VEC3"},
+    {"bufferView": 1, "componentType": 5121, "count": 3, "type": "SCALAR"},
+    {"bufferView": 2, "componentType": 5123, "count": 3, "type": "SCALAR"},
+    {"bufferView": 3, "componentType": 5125, "count": 3, "type": "SCALAR"}
+  ],
+  "bufferViews": [
+    {"buffer": 0, "byteOffset": 0, "byteLength": 144, "target": 34962},
+    {"buffer": 0, "byteOffset": 144, "byteLength": 3, "target": 34963},
+    {"buffer": 0, "byteOffset": 148, "byteLength": 6, "target": 34963},
+    {"buffer": 0, "byteOffset": 156, "byteLength": 12, "target": 34963}
+  ],
+  "buffers": [
+    {
+      "byteLength": 168,
+      "uri": "data:application/octet-stream;base64,AADAvwAAgL8AAAAAAAAAvwAAgL8AAAAAAACAvwAAAAAAAAAAAAAAPwAAgL8AAAAAAADAPwAAgL8AAAAAAACAPwAAAAAAAAAAAADAvwAAgD4AAAAAAAAAvwAAgD4AAAAAAACAvwAAoD8AAAAAAAAAPwAAgD4AAAAAAADAPwAAgD4AAAAAAACAPwAAoD8AAAAAAAECAAAAAQACAAAAAAAAAAEAAAACAAAA"
+    }
+  ]
+}
